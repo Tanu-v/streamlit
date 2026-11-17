@@ -1,0 +1,118 @@
+import streamlit as st
+
+#Homework06 : Memories Revival
+st.title("Memories ")
+
+year = st.selectbox("Select a year to see memories of that year",["2019","2020","2021","2022"])
+if year == "2019" :
+    st.success(" Photos from 2019 ")
+    st.info("This folder contains pictures from 2018 , some of the memories of that year.")
+    st.write("Photo of me in Dongargarh")
+    st.image("D:\IMPORT FROM TAB\Download\Screenshot_20190517_083854.jpg")
+    st.write("Photo of Ketan and Bablu eating")
+    st.image("D:\IMPORT FROM TAB\Download\Screenshot_20191120_200804.jpg")
+    st.write("Movements of me and binni in Bamleshwari temple")
+    st.image("D:\IMPORT FROM TAB\Download\Screenshot_20191210_091158.jpg")
+    st.write("A picture from my Shishu mandir school days with classmates")
+    st.image("D:\IMPORT FROM TAB\Download\Screenshot_20210126_135948.jpg")
+    st.write("Memory of papa going through Bhagwat function's album happened in 2017")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20190523_113217.jpg")
+    st.write("Memory of Nani and her mother when they where alive ")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20190601_133139.jpg")
+    st.write("A group picture of us having fun and posing")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20190812_134211.jpg")
+    st.write("A picture of home from 2019 when grandpa was alive and seating in front of house .")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20190812_165029.jpg")
+    st.write("Me taking photos of mom and ketan")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20190814_082454.jpg")
+    st.write("Bhai dooj picture of me and pankaj")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20200606_113333.jpg")
+
+
+elif year == "2020" :
+    st.header(st.success(" Photos from 2020 "))
+    st.info("This folder contains pictures from 2020 ")
+    st.write("A group pictures from Pragya giri")
+    st.image("D:\IMPORT FROM TAB\Download\Screenshot_20191031_103517.jpg")
+    st.write("Apicture of ketan from 2020")
+    st.image("D:\IMPORT FROM TAB\Download\Screenshot_20200219_202439.jpg")
+    st.write("Apicture of bablu from 2020")
+    st.image("D:\IMPORT FROM TAB\Download\Screenshot_20200220_195815.jpg")
+    st.write("Group picture of mom together with mausi's , nani and mami")
+    st.image("D:\IMPORT FROM TAB\Download\Screenshot_20200229_145245.jpg")
+    st.write("Apicture of mausi from 2020")
+    st.image("D:\IMPORT FROM TAB\Download\Screenshot_20200229_145456.jpg")
+    st.write("Me and Diksha taking pictures in changing room")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20200724_130510.jpg")
+    st.write("Picture with friends in pragya giri")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20200120_110907.jpg")
+    st.write("Mom and dad's photo from 2020 taken by me")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20200401_180415.jpg")
+    st.write("Mom with little sundru ")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20200604_113408.jpg")
+    st.write("Picture of grandpa and grandma")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20200606_113900.jpg")
+    st.write("Picture of chachi's birthday in dongargarh during octuber")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG-20201005-WA0001.jpg")
+
+
+elif year == "2021" :
+    st.success(st.header(" Photos from 2021 "))
+    st.write("Me in 2021 when i was staying in a hostel during COVID")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20210203_172528.jpg")
+    st.write("Mom in 2021 when she was gone in her cousin's marrige function , it's a picture from haldi")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20210719_103737.JPG")
+    st.write("Picture of us with nani")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20210809_213314.JPG")
+    st.write("Apicture of mamma and chachi")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20211003_225600.JPG")
+    st.write("A picture of mehndi made by me")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20211016_144214.jpg")
+    st.write("Picture of karwa chaut 2021 of mom and dad")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20211024_210051.jpg")
+    st.write("Rangoli's picture from 2021 in Diwali")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20211105_100607.jpg")
+    st.write("Picture of binni from 2021")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20211201_102841.jpg")
+
+
+
+else :
+    st.success(st.header(" Photos from 2022 "))
+    st.write("Me in 2022 when i was in home ")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20220205_150743.JPG")
+    st.write("Picture of us in 2022 in pragya giri")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20220216_230937.JPG")
+    st.write("Picture with mami in Bamleshwari temple")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20220406_082258.JPG")
+    st.write("Picture of me in Hawan pooja ")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG_20220409_221124.JPG")
+    st.write("Picture of me with my grandpa during Rakshabandhan")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG-20200803-WA0170.jpg")
+    st.write("Group picture of us in Tariyaa")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG-20200814-WA0027.jpg")
+    st.write("Picture of us")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG-20200821-WA0034.jpg")
+    st.write("Picture during Karwachauth")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG-20201104-WA0121.jpg")
+    st.write("A picture of meetup with friends")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG-20201211-WA0024.jpg")
+    st.write("Picture from Holi")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG-20210329-WA0060.jpg")
+    st.write("Picture of mom and dad")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG-20210518-WA0013.jpg")
+    st.write("Picture of grandparents with papa")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG-20210918-WA0005.jpg")
+    st.write("Picture of me and binnu")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG-20210924-WA0020.jpg")
+    st.write("Those days ")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG-20211009-WA0008.jpg")
+    st.write("Glimps of me during Navratri when i was holding Jyoti kalash in our village's temple")
+    st.image("D:\IMPORT FROM TAB\DCIM\Camera\IMG-20211014-WA0023.jpg")
+
+
+
+
+
+
+
